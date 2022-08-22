@@ -1,0 +1,337 @@
+[
+    {
+        "id": 1,
+        "name": "MEN'S T-SHIRT",
+        "rupees": "$34.99",
+        "colors": [
+            {
+                "id": 1,
+                "color": "Black",
+                "colorName": "Black",
+                "image": "https://tangibletokens.ropstam.dev/images/9021.png"
+            },
+            {
+                "id": 2,
+                "color": "#ffffff",
+                "colorName": "white",
+                "image": "https://tangibletokens.ropstam.dev/images/9022.png"
+            },
+            {
+                "id": 3,
+                "color": "#d5d5d5",
+                "colorName": "asphalt",
+                "image": "https://tangibletokens.ropstam.dev/images/9023.png"
+            },
+            {
+                "id": 4,
+                "color": "#303656",
+                "colorName": "navy",
+                "image": "https://tangibletokens.ropstam.dev/images/9024.png"
+            }
+        ],
+
+        "icons":[
+            {
+                "id":1,
+                "icon": "https://tangibletokens.ropstam.dev/images/1.png"
+            },
+            {
+                "id":2,
+                "icon": "https://tangibletokens.ropstam.dev/images/2.png"
+            },
+            {
+                "id":3,
+                "icon": "https://tangibletokens.ropstam.dev/images/3.png"
+            },
+            {
+                "id":4,
+                "icon": "https://tangibletokens.ropstam.dev/images/4.png"
+            },
+            {
+                "id":5,
+                "icon": "https://tangibletokens.ropstam.dev/images/5.png"
+            },
+            {
+                "id":6,
+                "icon": "https://tangibletokens.ropstam.dev/images/6.png"
+            }
+        ],
+        "size":[
+            {
+                "id":1,
+                "size":"SMALL"
+            },
+            {
+                "id":2,
+                "size":"MEDIUM"
+            },
+            {
+                "id":3,
+                "size":"LARGE"
+            },
+            {
+                "id":4,
+                "size":"XL"
+            },
+            {
+                "id":5,
+                "size":"XXL"
+            },
+            {
+                "id":6,
+                "size":"3XL"
+            },
+            {
+                "id":7,
+                "size":"4XL"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "LADIES T-SHIRT",
+        "rupees": "$34.99",
+        "colors": [
+            {
+                "id": 1,
+                "color": "Black",
+                "colorName": "Black",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_1.1d246b4bd22d6667f830.png"
+            },
+            {
+                "id": 2,
+                "color": "#d5d5d5",
+                "colorName": "asphalt",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_2.281d4000e1b606f3b934.png"
+            },
+            {
+                "id": 3,
+                "color": "#303656",
+                "colorName": "navy",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_3.b73516f575142f430293.png"
+            }
+        ],
+
+        "icons":[
+            {
+                "id":1,
+                "icon": "https://tangibletokens.ropstam.dev/images/1.png"
+            },
+            {
+                "id":2,
+                "icon": "https://tangibletokens.ropstam.dev/images/2.png"
+            },
+            {
+                "id":3,
+                "icon": "https://tangibletokens.ropstam.dev/images/3.png"
+            },
+            {
+                "id":4,
+                "icon": "https://tangibletokens.ropstam.dev/images/4.png"
+            },
+            {
+                "id":5,
+                "icon": "https://tangibletokens.ropstam.dev/images/5.png"
+            },
+            {
+                "id":6,
+                "icon": "https://tangibletokens.ropstam.dev/images/6.png"
+            }
+        ],
+        "size":[
+            {
+                "id":1,
+                "size":"SMALL",
+                "rupees": "$34.99"
+            },
+            {
+                "id":2,
+                "size":"MEDIUM",
+                "rupees": "$34.99"
+            },
+            {
+                "id":3,
+                "size":"LARGE",
+                "rupees": "$34.99"
+            },
+            {
+                "id":4,
+                "size":"XL",
+                "rupees": "$34.99"
+            },
+            {
+                "id":5,
+                "size":"XXL",
+                "rupees": "$35.99"
+            },
+            {
+                "id":6,
+                "size":"3XL",
+                "rupees": "$36.99"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "HOODIE",
+        "colors": [
+            {
+                "id": 1,
+                "color": "Black",
+                "colorName": "Black",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_1.52b49771fec293b2dd26.png"
+            },
+            {
+                "id": 2,
+                "color": "#d5d5d5",
+                "colorName": "asphalt",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_2.fc7ca7e8a912232fe272.png"
+            },
+            {
+                "id": 3,
+                "color": "#303656",
+                "colorName": "navy",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_3.aeb9ab30c27ae59a2f31.png"
+            }
+        ],
+
+        "icons":[
+            {
+                "id":1,
+                "icon": "https://tangibletokens.ropstam.dev/images/1.png"
+            },
+            {
+                "id":2,
+                "icon": "https://tangibletokens.ropstam.dev/images/2.png"
+            },
+            {
+                "id":3,
+                "icon": "https://tangibletokens.ropstam.dev/images/3.png"
+            },
+            {
+                "id":4,
+                "icon": "https://tangibletokens.ropstam.dev/images/4.png"
+            },
+            {
+                "id":5,
+                "icon": "https://tangibletokens.ropstam.dev/images/5.png"
+            },
+            {
+                "id":6,
+                "icon": "https://tangibletokens.ropstam.dev/images/6.png"
+            }
+        ],
+        "size":[
+            {
+                "id":1,
+                "size":"SMALL",
+                "rupees": "$59.99"
+            },
+            {
+                "id":2,
+                "size":"MEDIUM",
+                "rupees": "$59.99"
+            },
+            {
+                "id":3,
+                "size":"LARGE",
+                "rupees": "$59.99"
+            },
+            {
+                "id":4,
+                "size":"XL",
+                "rupees": "$59.99"
+            },
+            {
+                "id":5,
+                "size":"XXL",
+                "rupees": "$60.99"
+            },
+            {
+                "id":6,
+                "size":"3XL",
+                "rupees": "$61.99"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "11OZ COFFEE MUG",
+        "rupees": "$24.99",
+        "colors": [
+            {
+                "id": 1,
+                "color": "Black",
+                "colorName": "Black",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_1.49c5f0231c035d77b49d.png"
+            },
+            {
+                "id": 2,
+                "color": "white",
+                "colorName": "white",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_2.781ea2d387fb9c75a709.png"
+            }
+        ],
+
+        "icons":[
+            {
+                "id":1,
+                "icon": "https://tangibletokens.ropstam.dev/images/1.png"
+            },
+            {
+                "id":2,
+                "icon": "https://tangibletokens.ropstam.dev/images/2.png"
+            },
+            {
+                "id":3,
+                "icon": "https://tangibletokens.ropstam.dev/images/3.png"
+            },
+            {
+                "id":4,
+                "icon": "https://tangibletokens.ropstam.dev/images/4.png"
+            },
+            {
+                "id":5,
+                "icon": "https://tangibletokens.ropstam.dev/images/5.png"
+            },
+            {
+                "id":6,
+                "icon": "https://tangibletokens.ropstam.dev/images/6.png"
+            }
+        ],
+        "size":[
+            
+        ]
+    },
+    {
+        "id": 5,
+        "name": "METAL SIGN",
+        "size":[
+            {
+                "id":1,
+                "size":"12x12",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_1.dd72e9ac2a18ca5baf90.png",
+                "rupees": "$99.99"
+
+            },
+            {
+                "id":2,
+                "size":"18x18",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_2.2294538980fb4662d360.png",
+                "rupees": "$149.99"
+            },
+            {
+                "id":3, 
+                "size":"18x24",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_3.d1bb885bd63ba8cf262a.png",
+                "rupees": "$179.99"
+            },
+            {
+                "id":4,
+                "size":"24x24",
+                "image": "https://tangibletokens.ropstam.dev/static/media/thumbnail_4.600a631f22e03f90a552.png",
+                "rupees": "$199.99"
+            }
+        ]
+    }
+]

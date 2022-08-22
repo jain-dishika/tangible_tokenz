@@ -1,0 +1,17 @@
+.footer{
+    font-family: 'Montserrat', sans-serif;
+}
+.copyright{
+    display: none;
+}
+.copyright p{
+    font-weight: 700;
+}
+.copyright img{
+    width: 100%;
+}
+@media only screen and (max-width: 767px){
+    .copyright{
+        display: block;
+    }
+}

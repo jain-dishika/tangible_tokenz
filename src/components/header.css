@@ -1,0 +1,208 @@
+.header{
+    font-family: 'Montserrat', sans-serif;
+}
+.top{
+    height: 32px;
+    width: 100%;
+    background-color: var(--blue);
+    /* margin-bottom: 2.5rem; */
+}
+.navigation-top{
+    padding: 2.5rem;
+}
+.navigation-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-top img{
+    width: 19%; 
+}
+form{
+    display: flex;
+}
+.search{
+    width: 50%;
+    padding: 0 20px 0 30px;
+}
+input{
+    /* color: rgb(255, 72, 72); */
+    /* height: 42px; */
+    padding: 0px 8px;
+    width: 100%;
+    font-size: medium;
+    font-family: inherit;
+}
+::-webkit-input-placeholder{
+    color:rgb(255, 65, 65);
+    font-size: large;
+}
+.fa-solid{
+    color: white;
+    background: black;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.black{
+    width: 20%;
+    height: 42px;
+    color: white;
+    background: black;
+    /* padding: 8px; */
+    font-size: large;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-shopping-cart{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(255, 72, 72);  */
+    padding: 5px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 48%;
+    background-color: rgb(243, 243, 243);
+    /* border: 2px solid red; */
+    width: 22%;
+    z-index:1;
+    
+}
+.dropdown_menu:hover +.dropdown{
+    display: block;
+    /* background-color: rebeccapurple; */
+} 
+.dropdown:hover{
+    display: block;
+}  
+ul.drop{
+    padding: 0;
+}
+li.drpdn{
+    display: flex;
+}
+.nav_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0 0 12px 0;
+}
+.navigation-bottom{
+    position: relative;
+}
+.navigation-bottom ul li{
+    list-style-type: none;
+    color: black;
+    /* border-bottom: 2px solid transparent ; */
+    /* border-bottom: 2px solid black; */
+}
+.nav_link{
+    position: relative;
+}
+ .nav_link::after{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+} 
+.navigation-bottom .nav_item .nav_link:hover:after{
+    transform: scale(1);
+}
+.navigation-bottom > ul > li a{
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: black;
+    text-decoration: dashed;
+}
+.dropdown ul li:hover{
+    background-color: white;
+}
+.dropdown ul li a{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: black;
+    text-decoration: dashed;
+}
+.drpdn a{
+    color: black;
+    text-decoration: dashed;
+    font-weight: 100;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none !important;
+}
+.fa-caret-down{
+    margin: 5px;
+}
+@media only screen and (max-width: 982px){
+    .black{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .navigation-top, .footer_image{
+        display: none;
+    }
+    .responsive, .responce_image{
+        display: block;
+    }
+    .row_base{
+        padding: 0;
+    }
+    .search{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    ::-webkit-input-placeholder{
+        color:rgb(255, 65, 65);
+        font-size: small;
+    }
+    .burger{
+        justify-content: left;
+    }
+    .navigation-bottom{
+        display: flex;
+        justify-content: left;
+        /* transition: display 0.2s ease-in-out; */
+    }
+    .navigation-bottom .nav_item{
+        flex-direction: column;
+        display: flex;
+        /* justify-content: left;
+        text-align: left; */
+    }
+    .navigation-bottom .nav_item .nav_link{
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        width: 100%;
+    }
+    .navigation-bottom .nav_item .nav_link a{
+        padding: 0 12px;
+        font-weight: 300;
+    }
+}
